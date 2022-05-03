@@ -1,0 +1,144 @@
+/* set box-sizing to border box */
+* {
+    box-sizing: border-box;
+}
+
+/* semantic tags set to block */
+header, main, nav, footer, section, article, figure, figcaption, aside {
+    display: block;
+}
+
+/* font-size adjusted for easy rem unit conversion */
+html {
+    font-size: 62.5%;
+}
+
+/* body set to the equivalent of 16px, background dark grey */
+body {
+    font-size: 1.5vw;
+    background-color: #131313;
+    font-family: Abel, Arial, sans-serif;
+    color: white;
+}
+
+/*  */
+header {
+    font-family: Arizonia, cursive;
+    font-size: 2.5vw;
+    background-color: #131313;
+    margin: 0;
+}
+
+h1 {
+    padding-left: 2.5rem;
+    margin: 0;
+}
+
+nav ul {
+    font-family: Abel, Arial, sans-serif;
+    font-size: 2vw;
+    list-style-type: none;
+    position: absolute;
+    top: 0;
+    right: 1.6rem;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+nav li {
+    float: left;
+}
+
+main {
+    clear: left;
+}
+
+#photo img {
+    width: 100%;
+    height: 100%;
+}
+
+#intro {
+    font-family: 'Bona Nova', Georgia, serif;
+    font-size: 4.5vw;
+    padding: 1.0rem;
+    background-color: rgba(19, 19, 19, .55);
+    float: left;
+    position: absolute;
+    top: 15.0rem;
+    left: 8.0rem;
+}
+
+#profile {
+    text-align: center;
+}
+
+h2 {
+    text-decoration: underline;
+    text-align: center;
+    font-size: 3.5vw;
+}
+
+#invert {
+    color: #131313;
+}
+
+.left {
+    float: left;
+    padding-left: 10.0rem;
+}
+
+.right {
+    float: right;
+    padding-right: 10.0rem;
+}
+
+#profile div {
+    text-align: center;
+}
+
+#profile img {
+    height: 20%;
+    width: 20%;
+}
+
+#exp {
+    clear: both;
+    background-color: #eeeeee;
+    height: 100.0rem;
+}
+
+#lexp {
+    background-color: #131313;
+    color: white;
+    margin-left: 10.0rem;
+    padding: 0rem 1.0rem;
+    width: 40.0rem;
+    height: 80.0rem;
+}
+
+#rexp {
+    background-color: #131313;
+    color: white;
+    margin-right: 10.0rem;
+    padding: 0rem 1.0rem;
+    width: 40.0rem;
+    height: 80.0rem;
+}
+
+#skills {
+    clear: both;
+}
+
+#projects {
+    background-color: #eeeeee;
+}
+
+#copyright {
+    text-align: center;
+    font-size: 1.8vw;
+    padding: 1.5rem;
+}
