@@ -21,7 +21,7 @@ body {
     color: white;
 }
 
-/*  */
+/* header styling with custom font */
 header {
     font-family: Arizonia, cursive;
     font-size: 2.5vw;
@@ -114,18 +114,18 @@ h2 {
 #lexp {
     background-color: #131313;
     color: white;
-    margin-left: 10.0rem;
-    padding: 0rem 1.0rem;
-    width: 40.0rem;
+    margin-left: 4%;
+    padding: 0% 3%;
+    width: 40%;
     height: 80.0rem;
 }
 
 #rexp {
     background-color: #131313;
     color: white;
-    margin-right: 10.0rem;
-    padding: 0rem 1.0rem;
-    width: 40.0rem;
+    margin-right: 4%;
+    padding: 0% 3%;
+    width: 40%;
     height: 80.0rem;
 }
 
