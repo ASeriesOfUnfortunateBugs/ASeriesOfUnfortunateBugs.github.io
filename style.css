@@ -133,7 +133,18 @@ h2 {
     clear: both;
 }
 
+#lskill {
+    float: left;
+    margin-left: 20%;
+}
+
+#rskill {
+    float: right;
+    margin-right: 20%;
+}
+
 #projects {
+    clear: both;
     background-color: #eeeeee;
 }
 
