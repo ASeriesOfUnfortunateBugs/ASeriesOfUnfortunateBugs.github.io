@@ -148,6 +148,37 @@ h2 {
     background-color: #eeeeee;
 }
 
+#contactList {
+    margin-left: 20%;
+}
+
+#contactList ul {
+    list-style-type: none;
+}
+
+#contactList li {
+    padding-bottom: 4%;
+}
+
+#linkedIn {
+    height: 7%;
+    width: 7%;
+    padding-right: 1%;
+}
+
+#github {
+    height: 7%;
+    width: 7%;
+    padding-right: 1%;
+}
+
+.contactLinks {
+    color: white;
+    text-decoration: none;
+    vertical-align: top;
+    font-size: 3vw;
+}
+
 #copyright {
     text-align: center;
     font-size: 1.8vw;
