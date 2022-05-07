@@ -8,11 +8,6 @@ header, main, nav, footer, section, article, figure, figcaption, aside {
     display: block;
 }
 
-/* font-size adjusted for easy rem unit conversion */
-html {
-    font-size: 62.5%;
-}
-
 /* body set to the equivalent of 16px, background dark grey */
 body {
     font-size: 1.5vw;
@@ -30,7 +25,7 @@ header {
 }
 
 h1 {
-    padding-left: 2.5rem;
+    padding-left: 2vw;
     margin: 0;
 }
 
@@ -40,7 +35,7 @@ nav ul {
     list-style-type: none;
     position: absolute;
     top: 0;
-    right: 1.6rem;
+    right: 1.5vw;
 }
 
 nav a {
@@ -64,12 +59,12 @@ main {
 #intro {
     font-family: 'Bona Nova', Georgia, serif;
     font-size: 4.5vw;
-    padding: 1.0rem;
+    padding: 1vw;
     background-color: rgba(19, 19, 19, .55);
     float: left;
     position: absolute;
-    top: 15.0rem;
-    left: 8.0rem;
+    top: 11vw;
+    left: 5vw;
 }
 
 #profile {
@@ -88,16 +83,20 @@ h2 {
 
 .left {
     float: left;
-    padding-left: 10.0rem;
+    padding-left: 5vw;
+    max-width: 35%;
 }
 
 .right {
     float: right;
-    padding-right: 10.0rem;
+    padding-right: 5vw;
+    max-width: 35%;
 }
 
 #profile div {
     text-align: center;
+    line-height: 3vw;
+    margin-bottom: 3%;
 }
 
 #profile img {
@@ -182,5 +181,5 @@ h2 {
 #copyright {
     text-align: center;
     font-size: 1.8vw;
-    padding: 1.5rem;
+    padding: 1vw;
 }
