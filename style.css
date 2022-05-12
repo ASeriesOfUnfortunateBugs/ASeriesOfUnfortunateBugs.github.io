@@ -102,6 +102,8 @@ h2 {
 #profile img {
     height: 20%;
     width: 20%;
+    border-radius: 50%;
+    border: 2px solid #eeeeee;
 }
 
 #exp {
