@@ -77,7 +77,7 @@ h2 {
     font-size: 3.5vw;
 }
 
-#invert {
+.invert {
     color: #131313;
 }
 
@@ -107,29 +107,31 @@ h2 {
 #exp {
     clear: both;
     background-color: #eeeeee;
-    height: 100.0rem;
+    overflow: auto;
+    padding-bottom: 4%;
 }
 
 #lexp {
+    float: left;
     background-color: #131313;
     color: white;
     margin-left: 4%;
     padding: 0% 3%;
     width: 40%;
-    height: 80.0rem;
 }
 
 #rexp {
+    float: right;
     background-color: #131313;
     color: white;
     margin-right: 4%;
     padding: 0% 3%;
     width: 40%;
-    height: 80.0rem;
 }
 
 #skills {
     clear: both;
+    padding-bottom: 17%;
 }
 
 #lskill {
@@ -145,6 +147,9 @@ h2 {
 #projects {
     clear: both;
     background-color: #eeeeee;
+    text-align: center;
+    padding-bottom: 4%;
+    overflow: auto;
 }
 
 #contactList {
