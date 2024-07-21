@@ -1,7 +1,5 @@
 # ASeriesOfUnfortunateBugs
 
----
-
 My personal webpage and portfolio.
 
 I built this page from scratch using HTML and standard CSS. My goal was to showcase my design and development skills as well as provide a space to share my other projects with potential employers/collaborators.
